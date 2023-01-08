@@ -1,11 +1,12 @@
-import React from "react"
+import ReactIcon from "../assets/images/react-icon-small.png"
+
 
 export default function Navbar(props) {
   return (
-    <nav className={props.darkMode ? "light": "dark"}>
+    <nav className={props.darkMode ? "": "dark"}>
       <img 
         className="nav--logo_icon"
-        src="./images/react-icon-small.png"
+        src={ReactIcon}
     />
     <h3 className="nav--logo_text">ReactFacts</h3>
             
